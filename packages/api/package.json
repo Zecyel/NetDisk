@@ -1,0 +1,16 @@
+{
+    "name": "@netdisk/api",
+    "type": "module",
+    "main": "./src/index.ts",
+    "types": "./src/index.ts",
+    "exports": {
+        ".": {
+            "import": {
+                "default": "./src/index.ts",
+                "types": "./src/index.ts"
+            }
+        }
+    },
+    "devDependencies": {
+    }
+}

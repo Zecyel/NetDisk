@@ -1,0 +1,6 @@
+{
+    "name": "@netdisk/frontend",
+    "devDependencies": {
+        "typescript": "^5.2.2"
+    }
+}

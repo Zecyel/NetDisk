@@ -1,0 +1,9 @@
+{
+    "name": "netdisk",
+    "type": "module",
+    "scripts": {
+        "dev:frontend": "pnpm -r --parallel --filter \"@netdisk/frontend...\" run dev",
+        "dev:backend": "pnpm -r --parallel --filter \"@netdisk/backend...\" run dev"
+    },
+    "license": "MIT"
+}
