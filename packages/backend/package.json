@@ -8,10 +8,12 @@
         "@types/koa": "^2.13.12",
         "@types/koa-router": "^7.4.8",
         "@types/node": "^20.10.0",
-        "typescript": "^5.2.2"
+        "typescript": "^5.2.2",
+        "@netdisk/api": "workspace:^"
     },
     "dependencies": {
         "koa": "^2.14.2",
+        "koa-bodyparser": "^4.4.1",
         "koa-router": "^12.0.1",
         "mongodb": "^6.3.0"
     }

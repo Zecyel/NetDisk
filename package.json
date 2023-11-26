@@ -5,5 +5,8 @@
         "dev:frontend": "pnpm -r --parallel --filter \"@netdisk/frontend...\" run dev",
         "dev:backend": "pnpm -r --parallel --filter \"@netdisk/backend...\" run dev"
     },
-    "license": "MIT"
+    "license": "MIT",
+    "devDependencies": {
+        "@types/koa-bodyparser": "^4.3.12"
+    }
 }

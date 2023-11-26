@@ -1,19 +1,11 @@
-import KoaRouter from 'koa-router'
+import { client } from "./connect"
 
-const router = new KoaRouter()
+import "./login"
 
-router.post('/api/user', async (ctx) => {
-    ctx.body = {
-        code: 200,
-        data: {
-            name: '张三',
-            age: 18
-        }
-    }
+(async () => {
+    await client.connect()
+})().then(() => {
+    console.log("Connected successfully.")
+}).catch((err) => {
+    console.error("Connect failed. ", err)
 })
-
-router.get('/api', async (ctx) => {
-    ctx.body = '123'
-})
-
-export default router
