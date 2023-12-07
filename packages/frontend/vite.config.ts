@@ -1,7 +1,9 @@
-import { defineConfig } from "vite"
-import Inspect from "vite-plugin-inspect"
-import Refina from "vite-plugin-refina"
+import { sveltekit } from '@sveltejs/kit/vite';
+import { defineConfig } from 'vitest/config';
 
 export default defineConfig({
-  plugins: [Inspect(), Refina()],
+	plugins: [sveltekit()],
+	test: {
+		include: ['src/**/*.{test,spec}.{js,ts}']
+	}
 });
