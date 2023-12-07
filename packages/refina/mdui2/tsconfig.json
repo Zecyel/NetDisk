@@ -1,7 +1,0 @@
-{
-  "extends": "@refina/tsconfig",
-  "include": ["src/**/*"],
-  "compilerOptions": {
-    "types": []
-  }
-}
